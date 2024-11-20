@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.config-panel {
+  margin: 20px;
+}
+
+.status-bar {
+  margin: 20px;
+}
+
+.game-board {
+  display: grid;
+  gap: 10px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.word-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 18px;
+  border: 1px solid black;
+  transition: background-color 0.3s;
+}
